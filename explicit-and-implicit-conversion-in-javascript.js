@@ -72,6 +72,6 @@ let pi;
 console.log(phrase + pi)
 
 2. explicit type conversion example 
-let value = (“12345”)
-let converted = number(value)
+let value = (“123”)
+let converted = Number(value)
 console.log(converted)
