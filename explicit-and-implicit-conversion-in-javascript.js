@@ -67,7 +67,11 @@ ________________________________________________________________________________
 
 PART 2
 1. implicit type conversion example 
-
-
+let phrase = String ("The value of pi is ")
+let pi;
+console.log(phrase + pi)
 
 2. explicit type conversion example 
+let value = (“12345”)
+let converted = number(value)
+console.log(converted)
